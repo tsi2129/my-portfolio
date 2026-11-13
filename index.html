@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-inner">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ===== HOME ===== -->
+    <section id="home" class="hero">
+      <!-- decorative blobs -->
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+
+      <div class="hero-content fade-up">
+        <h1>Hi, I'm <span class="highlight">Tsion Melake</span></h1>
+        <h2 class="hero-role">
+          <span class="role-static">I'm a </span>
+          <span id="typed"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-quote reveal-up delay-3">
+            "I create modern, responsive, and user-friendly websites that turn ideas into meaningful digital experiences."
+          </p>
+        <div class="hero-socials">
+          <a
+            href="https://https://mail.google.com/mail/?view=cm&to=tsi192129@gmail.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Email"
+            title="Email"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a
+            href="https://github.com/tsi2129"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/TSION MELAKE"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image fade-right">
+        <div class="avatar-ring">
+          <div class="avatar-circle">
+             <img
+                src="images/tsi.jpg"
+                alt="Tsion Melake"
+                class="home-profile-photo"
+              />
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+    
+    <!-- ============================================================
+         ABOUT SECTION
+    ============================================================ -->
+    <section class="about section-padding" id="about" aria-label="About Tsion Melake">
+      <div class="container">
+
+        <div class="section-header reveal-up">
+          <span class="section-tag">Get to know me</span>
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Profile Image -->
+          <div class="about-image reveal-left">
+            <div class="about-img-wrapper">
+              <img src="images/abou.jpg" alt="Tsion Melake" class="about-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="about-img-placeholder" style="display:none;" aria-label="Profile photo">
+                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="100" cy="80" r="45" fill="url(#avatarGrad2)"/>
+                  <ellipse cx="100" cy="175" rx="65" ry="40" fill="url(#avatarGrad2)"/>
+                  <defs>
+                    <linearGradient id="avatarGrad2" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#a78bfa"/>
+                      <stop offset="100%" stop-color="#6366f1"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <!-- Experience badge -->
+              <div class="exp-badge glass-card">
+                <strong>Frontend</strong>
+                <span>Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Text -->
+          <div class="about-content reveal-right">
+            <h3 class="about-subtitle">I build digital experiences that matter.</h3>
+            <p class="about-text">
+              I am Tsion Melake, a passionate frontend developer interested in creating modern, responsive, and user-friendly web applications. I enjoy transforming ideas into functional digital solutions using HTML, CSS, and JavaScript. I am continuously learning and improving my development skills through practical projects and problem-solving.
+            </p>
+
+            <!-- Info Cards -->
+            <div class="about-info-grid">
+              <div class="info-item">
+                
+              </div>
+            </div>
+            
+            <!-- Interests -->
+            <div class="interests">
+              <br> 
+              
+              <h4>My Interests</h4>
+              <div class="interest-tags">
+                <span class="tag">🌐 Web Development</span>
+                <span class="tag">🎨 UI/UX Design</span>
+                <span class="tag">🧩 Problem Solving</span>
+                <span class="tag">⚡️ Technology</span>
+              </div>
+            </div>
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section skills">
+        <div class="section-head fade-up">
+          <h2>My <span class="highlight">Skills</span></h2>
+        </div>
+
+        <div class="skills-grid">
+        <div class="skills-grid"></div>
+          <div class="skill-card fade-up" style="--d: 0.05s">
+            <div class="skill-top">
+              <div class="skill-icon html"><i class="fab fa-html5"></i></div>
+              <div class="skill-info">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-pct">85%</span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85"></div>
+            </div>
+          </div>
+
+          <div class="skill-card fade-up" style="--d: 0.1s">
+            <div class="skill-top">
+              <div class="skill-icon css"><i class="fab fa-css3-alt"></i></div>
+              <div class="skill-info">
+                <span class="skill-name">CSS3</span>
+                <span class="skill-pct">80%</span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-card fade-up" style="--d: 0.15s">
+            <div class="skill-top">
+              <div class="skill-icon js"><i class="fab fa-js-square"></i></div>
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-pct">75%</span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="75"></div>
+            </div>
+          </div>
+
+          <div class="skill-card fade-up" style="--d: 0.2s">
+            <div class="skill-top">
+              <div class="skill-icon react"><i class="fab fa-react"></i></div>
+              <div class="skill-info">
+                <span class="skill-name">React</span>
+                <span class="skill-pct">60%</span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="60"></div>
+            </div>
+          </div>
+
+          <div class="skill-card fade-up" style="--d: 0.25s">
+            <div class="skill-top">
+              <div class="skill-icon django"><i class="fab fa-python"></i></div>
+              <div class="skill-info">
+                <span class="skill-name">Django</span>
+                <span class="skill-pct">70%</span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="70"></div>
+            </div>
+          </div>
+           <div class="skill-card fade-up" style="--d: 0.25s">
+            <div class="skill-top">
+              <div class="skill-icon PHP"><i class="fab fa-PHP"></i></div>
+              <div class="skill-info">
+                <span class="skill-name">PHP</span>
+                <span class="skill-pct">50%</span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="50"></div>
+            </div>
+          </div>
+          <!-- git skill -->
+    <div class="skill-card fade-up" style="--d: 0.2s">
+        <div class="skill-top">
+            <div class="skill-icon">
+                <i class="fab fa-git-alt"></i>
+            </div>
+            <div class="skill-info">
+                <span class="skill-name">Git</span>
+                <span class="skill-pct">70%</span>
+            </div>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-fill" data-width="70"></div>
+        </div>
+    </div>
+
+    <!-- GitHub skill -->
+    <div class="skill-card fade-up" style="--d: 0.3s">
+        <div class="skill-top">
+            <div class="skill-icon">
+                <i class="fab fa-github"></i>
+            </div>
+            <div class="skill-info">
+                <span class="skill-name">GitHub</span>
+                <span class="skill-pct">80%</span>
+            </div>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-fill" data-width="80"></div>
+        </div>
+    </div>
+  </div>
+
+
+        <!-- Interests -->
+        <div class="interests fade-up">
+          <h3>Interests &amp; Focus Areas</h3>
+          <div class="interest-tags">
+            <span><i class="fas fa-globe"></i> Web Development</span>
+            <span><i class="fas fa-code"></i> Software Engineering</span>
+            <span><i class="fas fa-palette"></i> UI/UX Design</span>
+            <span
+              ><i class="fas fa-lightbulb"></i> Learning New Technologies</span
+            >
+            <span
+              ><i class="fas fa-hammer"></i> Building Practical Projects</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section education">
+      <div class="container">
+        <div class="section-head fade-up">
+          <span class="section-tag">My Background</span>
+          <h2>My <span class="highlight">Education</span></h2>
+        </div>
+
+        <div class="edu-timeline">
+          <div class="edu-item fade-up" style="--d: 0.05s">
+            <div class="edu-dot"></div>
+            <div class="edu-card">
+              <div class="edu-icon"><i class="fas fa-university"></i></div>
+              <div class="edu-body">
+                <span class="edu-status">Currently Enrolled</span>
+                <h3>Bachelor of Science in Software Engineering</h3>
+                <p class="edu-place">
+                  <i class="fas fa-map-marker-alt"></i> Kombolcha, Ethiopia
+                </p>
+                <p class="edu-desc">
+                  Studying software engineering principles, programming, web
+                  development, and software project management. Actively working
+                  on practical projects to strengthen technical skills.
+                </p>
+                <div class="edu-tags">
+                  <span>Software Engineering</span>
+                  <span>Web Development</span>
+                  <span>Programming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-item fade-up" style="--d: 0.15s">
+            <div class="edu-dot"></div>
+            <div class="edu-card">
+              <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+              <div class="edu-body">
+                <span class="edu-status ongoing">Self-Learning</span>
+                <h3>Web Technologies &amp; Development</h3>
+                <p class="edu-place">
+                  <i class="fas fa-globe"></i> Online &amp; Self-Directed
+                </p>
+                <p class="edu-desc">
+                  Continuously improving skills in HTML, CSS, JavaScript, React,
+                  and Django through online resources, tutorials, and hands-on
+                  project building.
+                </p>
+                <div class="edu-tags">
+                  <span>HTML &amp; CSS</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>Django</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-head fade-up">
+          <span class="section-tag">My Work</span>
+          <h2>My <span class="highlight">Projects</span></h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card fade-up" style="--d: 0.05s">
+            <div class="project-top">
+              <div class="project-icon" style="--ic: #6366f1">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/tsi2129"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">pharmacy mangment system</h3>
+            <p class="project-desc">
+              A Pharmacy Management System manages medicine stock, sales, prescriptions, and customer records. It helps users find available medicines and compare prices across pharmacies. It improves efficiency, accuracy, and accessibility.
+            </p>
+            <div class="project-tags">
+              <span>Web App</span>
+              <span>PHP</span>
+              <span>MYSQL</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card fade-up" style="--d: 0.05s">
+            <div class="project-top">
+              <div class="project-icon" style="--ic: #6366f1">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/tsi2129"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">student mangment system</h3>
+            <p class="project-desc">
+              A smart digital platform that streamlines student information, tracks academic performance, manages attendance, and simplifies school administration.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+
+          <!-- Project 3-->
+          <div class="project-card fade-up" style="--d: 0.15s">
+            <div class="project-top">
+              <div class="project-icon" style="--ic: #10b981">
+                <i class="fas fa-money-check-alt"></i>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/tsi2129"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            
+              <div class="project-links">
+                <a
+                  href="https://github.com/tsi2129"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Personal Portfolio Website</h3>
+            <p class="project-desc">
+              A responsive personal website showcasing my education, skills,
+              projects, and contact information — built with HTML, CSS, and
+              JavaScript.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-head fade-up">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Contact <span class="highlight">Me</span></h2>
+          <p class="section-sub">
+            Have a question or want to work together? Feel free to reach out!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact info -->
+          <div class="contact-info fade-left">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always open to new opportunities, collaborations, and
+              conversations about technology and software development.
+            </p>
+
+            <div class="contact-items">
+              <a href="mailto:tsi192129@.com" class="contact-item">
+                <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">Email</span>
+                  <span class="ci-value">tsi192129@gmail.com</span>
+                </div>
+              </a>
+
+              <a
+                href="https://github.com/tsi2129"
+                target="_blank"
+                rel="noopener"
+                class="contact-item"
+              >
+                <div class="ci-icon"><i class="fab fa-github"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">GitHub</span>
+                  <span class="ci-value">github.com/tsi2129</span>
+                </div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/TSION MELAKE"
+                target="_blank"
+                rel="noopener"
+                class="contact-item"
+              >
+                <div class="ci-icon"><i class="fab fa-linkedin-in"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">LinkedIn</span>
+                  <span class="ci-value">linkedin.com/in/TSION MELAKE</span>
+                </div>
+              </a>
+
+              <div class="contact-item non-link">
+                <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">Location</span>
+                  <span class="ci-value">Ethiopia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact form -->
+          <div class="contact-form-wrap fade-right">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <div class="input-box">
+                  <i class="fas fa-user"></i>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <span class="err-msg" id="nameErr"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <div class="input-box">
+                  <i class="fas fa-envelope"></i>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <span class="err-msg" id="emailErr"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <div class="input-box">
+                  <i class="fas fa-tag"></i>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter subject"
+                    required
+                  />
+                </div>
+                <span class="err-msg" id="subjectErr"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <div class="input-box">
+                  <i class="fas fa-comment-alt"></i>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message here..."
+                    required
+                  ></textarea>
+                </div>
+                <span class="err-msg" id="msgErr"></span>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary btn-block"
+                id="submitBtn"
+              >
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+
+              <div class="form-success" id="formSuccess">
+                <i class="fas fa-check-circle"></i>
+                Thank you! Your message has been sent successfully.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <a href="#home" class="logo">Tsion<span>.</span></a>
+        <p>
+          &copy; 2026 Tsion Melake. Built with
+          <i class="fas fa-heart"></i> using HTML, CSS &amp; JavaScript.
+        </p>
+        <div class="footer-socials">
+          <a href="mailto:tsi192129@gmail.com" aria-label="Email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/tsi2129"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/TSION MELAKE"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+      <button class="top-btn" id="topBtn" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
